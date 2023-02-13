@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Decodificador</title>
+		<link rel="stylesheet" href="reset.css">
+		<link rel="stylesheet" href="style.css">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@900&display=swap" rel="stylesheet">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Cookie&display=swap" rel="stylesheet">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+	</head>
+	<body>
+		<header>
+			<img src="logo.png" alt="Logo Alura">
+			<h1>Decodificador</h1>
+		</header>
+		<main>
+			<section>
+				<textarea class="text-area"  cols="41" rows="6" placeholder="Digite sua mensagem"></textarea>
+				<div>
+					<h6 class="informacao">🛈Apenas letras minisculas e sem acento</h6>
+				</div>
+				<div class="botoes">
+					<button class="btn-encriptar" onclick="btnEncriptar()">Criptografar</button>
+                	<button class="btn-desencriptar" onclick="btnDesencriptar()">Descriptografar</button>
+                </div>
+                <div>
+                	<button class="limpa-tela" type="button" onClick="recarregarAPagina()">Limpar a Tela</button>
+                </div>
+			</section>
+			<section class="lateral">
+    			<textarea id="texto-mensagem" class="mensagem"  cols="19" rows="11" placeholder=" " readonly></textarea>
+    			<button class="bnt-copiar" onclick="copiarTexto()">Copiar</button>
+			</section>
+		</main>
+		<footer>
+			<p class="rodape">&#169; Copyright: Decodificador By Aleksandra Ferrari - Alura ONE Oracle - T4 - 2023  
+			</p>
+			 </a>
+		</footer>
+		<script src="script.js"></script>
+	</body>
+</html>

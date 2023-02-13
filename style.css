@@ -1,0 +1,189 @@
+* {
+    background: #F3F5FC;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400px;
+    font-size: 25px;
+}
+
+
+header {
+	display: flex;
+	padding: 20px 0 10px 20px;
+	margin-left: 10px;
+	width:2%;
+}
+
+h1 {
+	font-family: 'Orbitron', sans-serif;
+	font-size: 36px;
+	margin-right: 12.5%;
+	position: absolute;
+	padding: 5px 5px;
+	right: 20px;
+}
+
+main {
+	display: flex;
+	margin-bottom: 40px;
+    margin-left: 100px;
+
+}
+
+.lateral {
+	margin: 15px;
+}
+
+.text-area {
+	font-size: 25px;
+	margin-top: 40px;
+	border: none;
+	color: #0A3871;
+	text-transform: lowercase;
+}
+
+::placeholder { 
+	color: #0A3871; 
+}
+ 
+.text-area:focus {
+      outline: none;
+}
+
+.mensagem {
+	background: white;
+	background-repeat: no-repeat;
+    border: none;
+	text-align: center;
+	border-radius: 24px;
+	color: #0A3871;
+	margin-left: 120px;
+	margin-top: 0px;
+	padding-left: 5px;
+	position: flex;
+	box-shadow: 10px 10px 10px 0 #696969;
+}
+
+.mensagem:focus {
+    outline: none;
+}
+
+
+.informacao {
+	font-family: 'Cookie', cursive;
+	margin-top: 30px;
+	margin-left: 2px;
+	color: #495057;
+	font-size: 20px;
+}	
+
+.botoes {
+	display: flex;
+	margin-top: 10px;
+}
+
+.btn-encriptar {
+	background-color: #0A3871;
+	border: 1px solid #0A3871;
+	border-radius: 24px;
+	color: white;
+	cursor: pointer;
+	height: 60px;
+	width: 60%;
+	box-shadow: 10px 10px 10px 0 #696969;
+}
+
+.btn-encriptar:hover {
+	font-size: 30px;
+	transition: 1s;
+	transform: scale(1.1);
+	box-shadow: 10px 10px 10px 0 #000000;
+}
+
+.btn-desencriptar {
+	background: #D8DFE8;
+	border: 1px solid #0A3871;
+	border-radius: 24px;
+	color: #0A3871;
+	cursor: pointer;
+	height: 60px;
+	margin-left: 30px;
+	width: 60%;	
+	box-shadow: 10px 10px 10px 0 #696969;
+}
+
+.btn-desencriptar:hover {
+	font-size: 30px;
+	transition: 1s;
+	transform: scale(1.1);
+	box-shadow: 10px 10px 10px 0 #000000;
+}
+
+.bnt-copiar {
+	background-color:lightsteelblue;
+	border: none;
+	border-radius: 24px;
+	color: #0A3871;
+	cursor: pointer;
+    height: 60px;
+    margin-left: 28%;
+    margin-top: 10px;
+    width: 50%;
+    box-shadow: 10px 10px 10px 0 #696969;
+}
+
+.bnt-copiar:hover {
+	font-size: 30px;
+	transition: 1s;
+	transform: scale(1.1);
+	box-shadow: 10px 10px 10px 0 #000000;
+}
+
+.limpa-tela {
+	background-color: #FFFFFF;
+	border: none;
+	border-radius: 24px;
+	color: #0A3871;
+	cursor: pointer;
+    height: 60px;
+    margin-left: 25%;
+    margin-top: 20px;
+    width: 50%;
+    box-shadow: 10px 10px 10px 0 #696969;
+}
+
+.limpa-tela:hover {
+	font-size: 30px;
+	transition: 1s;
+	transform: scale(1.1);
+	box-shadow: 10px 10px 10px 0 #000000;
+}
+
+.mensagem:placeholder-shown {
+    background-image: url("file:///C:/Projetos/Desafio/Lupa.png");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.mensagem:not(:placeholder-shown) {
+    background-color: white;
+}
+
+.invisivel {
+    display: none;
+}
+
+footer {
+	background-color: #0A3871;
+	color: white;
+	text-align: center;
+	padding: 20px;
+}
+
+.rodape {
+	background: #0A3871;
+	background-image: center;
+    font-family: 'Inter', sans-serif;
+    color: white;
+    font-weight: 400px;
+    font-size: 16px;
+}
